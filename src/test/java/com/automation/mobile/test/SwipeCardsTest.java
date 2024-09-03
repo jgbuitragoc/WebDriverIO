@@ -12,7 +12,7 @@ public class SwipeCardsTest extends BaseTest {
     private SwipeScreen swipeScreen;
 
     @BeforeMethod
-    public void setLoginScreen() {
+    public void setSwipeScreen() {
         HomeScreen homeScreen = returnHomeScreen();
         Assert.assertTrue(homeScreen.isSubtitleVisible());
         swipeScreen = homeScreen.clickSwipeMenuBtn();
@@ -25,7 +25,7 @@ public class SwipeCardsTest extends BaseTest {
         int currentCard = 0;
         while (numberOfCards > currentCard) {
             Assert.assertTrue(swipeScreen.verifyCardByNumber(currentCard));
-            swipeScreen.rightSwipeSingleCard(currentCard);
+            swipeScreen.rightSwipeSingleCard();
             currentCard++;
         }
         swipeScreen.scrollDown();

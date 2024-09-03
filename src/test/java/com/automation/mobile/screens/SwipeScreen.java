@@ -49,7 +49,7 @@ public class SwipeScreen extends BaseScreen {
         return titleTxt.isDisplayed();
     }
 
-    public void rightSwipeSingleCard(int expectedCard) {
+    public void rightSwipeSingleCard() {
         int screenWidth = driver.manage().window().getSize().getWidth();
         int screenHeight = driver.manage().window().getSize().getHeight();
         int startX = screenWidth - (screenWidth / 3);

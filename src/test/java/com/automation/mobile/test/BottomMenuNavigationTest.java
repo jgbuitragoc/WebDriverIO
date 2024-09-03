@@ -3,8 +3,6 @@ package com.automation.mobile.test;
 import com.automation.mobile.screens.*;
 import com.automation.mobile.utils.test.BaseTest;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 

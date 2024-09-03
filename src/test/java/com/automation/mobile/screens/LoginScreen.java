@@ -4,7 +4,6 @@ import com.automation.mobile.utils.screens.BaseScreen;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import org.openqa.selenium.WebElement;
-import org.w3c.dom.html.HTMLInputElement;
 
 public class LoginScreen extends BaseScreen {
     public LoginScreen(AndroidDriver driver) {
